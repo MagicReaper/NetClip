@@ -8,8 +8,10 @@
 
 #import "AppDelegate.h"
 #import "PreferencesController.h"
+#import "LogViewController.h"
 #import "NetClipClient.h"
 #import "NetClipFileTransferClient.h"
+#import "Log.h"
 
 @interface AppDelegate ()
 
@@ -20,10 +22,12 @@
 @property (weak) IBOutlet NSTextField *labelOutlet;
 @property (weak) IBOutlet NSProgressIndicator *progressOutlet;
 
-
 @end
 
 @implementation AppDelegate
+
+#pragma mark -
+#pragma mark Initialisation
 
 - (void)awakeFromNib {
     NSLog(@"%s", __PRETTY_FUNCTION__);
@@ -48,24 +52,39 @@
     [self.statusItem setHighlightMode:YES];
 }
 
+#pragma mark -
+#pragma mark Application Delegate Methods
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
     NSLog(@"%s", __PRETTY_FUNCTION__);
+    
+    self.log = [[Log alloc] init];
+    
+    [self.log addLogEntry:@"NetClip Startet" forSource:lesNetClip];
 }
 
 -(BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
     return YES;
 }
 
--(IBAction)openPreferences:(id)sender {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+#pragma mark -
+#pragma mark Menu Methods
 
+-(IBAction)openPreferences:(id)sender {
     if (!self.preferencesController)
     {
         self.preferencesController = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
         [self.preferencesController showWindow:self];
     }
 }
+
+-(IBAction)openLogViewWindow:(id)sender {
+    if (!self.logViewController) {
+        self.logViewController = [[LogViewController alloc] initWithWindowNibName:@"LogView"];
+        [self.logViewController showWindow:self];
+    }
+}
+
 - (IBAction)sendFile:(id)sender {
 
     if (self.clientFileTransfer) {
@@ -105,12 +124,14 @@
         NSLog(@"Client läuft bereits");
         return;
     }
+
+    Preferences *pref = [[Preferences alloc] init];
     
     [self.textViewOutlet setString:@"Requesting Data please wait."];
     [self.imageViewOutlet setImage:nil];
     
     NetClipClient *client = [[NetClipClient alloc] initWithServer:@"192.168.99.52" andPort:40000];
-    client.timeoutInSeconds = 15;
+    client.timeoutInSeconds = pref.timeout;
 
     [self addObserver:self forKeyPath:@"client.done" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
     [self addObserver:self forKeyPath:@"client.bytesTransfered" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];

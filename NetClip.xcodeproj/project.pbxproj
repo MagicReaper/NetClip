@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E956D179172158CB00DACC7B /* LogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E956D178172158CB00DACC7B /* LogEntry.m */; };
 		E998B3C117156AB7004EF3DF /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E998B3C017156AB7004EF3DF /* Preferences.m */; };
 		E9A8173117158AFB00F43D84 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A8173017158AFB00F43D84 /* PreferencesController.m */; };
 		E9C5D36A171EE76000E4C504 /* NetClipFileTransferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C5D369171EE76000E4C504 /* NetClipFileTransferClient.m */; };
@@ -18,10 +19,15 @@
 		E9C6732717004EA30069B61C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C6732517004EA30069B61C /* MainMenu.xib */; };
 		E9D0187D1717F78700CA7951 /* NetClipServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0187C1717F78700CA7951 /* NetClipServer.m */; };
 		E9D018801717FDD700CA7951 /* NetClipClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0187F1717FDD700CA7951 /* NetClipClient.m */; };
+		E9DC88921721636F00A2A1AE /* LogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DC88911721636F00A2A1AE /* LogView.xib */; };
+		E9DC889517216B0C00A2A1AE /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC889417216B0C00A2A1AE /* LogViewController.m */; };
+		E9DC8898172172E200A2A1AE /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC8897172172E200A2A1AE /* Log.m */; };
 		E9EE8FD4170B0F7C00CE70CC /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EE8FD3170B0F7C00CE70CC /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E956D177172158CB00DACC7B /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntry.h; sourceTree = "<group>"; };
+		E956D178172158CB00DACC7B /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntry.m; sourceTree = "<group>"; };
 		E998B3BF17156AB7004EF3DF /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
 		E998B3C017156AB7004EF3DF /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
 		E9A8172F17158AFB00F43D84 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
@@ -46,6 +52,11 @@
 		E9D0187E1717FDD700CA7951 /* NetClipClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipClient.h; sourceTree = "<group>"; };
 		E9D0187F1717FDD700CA7951 /* NetClipClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipClient.m; sourceTree = "<group>"; };
 		E9D01882171812CB00CA7951 /* Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
+		E9DC88911721636F00A2A1AE /* LogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogView.xib; sourceTree = "<group>"; };
+		E9DC889317216B0C00A2A1AE /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		E9DC889417216B0C00A2A1AE /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		E9DC8896172172E200A2A1AE /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		E9DC8897172172E200A2A1AE /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
 		E9EE8FD3170B0F7C00CE70CC /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +77,10 @@
 			children = (
 				E998B3BF17156AB7004EF3DF /* Preferences.h */,
 				E998B3C017156AB7004EF3DF /* Preferences.m */,
+				E9DC8896172172E200A2A1AE /* Log.h */,
+				E9DC8897172172E200A2A1AE /* Log.m */,
+				E956D177172158CB00DACC7B /* LogEntry.h */,
+				E956D178172158CB00DACC7B /* LogEntry.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -116,8 +131,11 @@
 				E9C6732317004EA30069B61C /* AppDelegate.m */,
 				E9A8172F17158AFB00F43D84 /* PreferencesController.h */,
 				E9A8173017158AFB00F43D84 /* PreferencesController.m */,
+				E9DC889317216B0C00A2A1AE /* LogViewController.h */,
+				E9DC889417216B0C00A2A1AE /* LogViewController.m */,
 				E9C6732517004EA30069B61C /* MainMenu.xib */,
 				E9EE8FD3170B0F7C00CE70CC /* Preferences.xib */,
+				E9DC88911721636F00A2A1AE /* LogView.xib */,
 				E9C6731717004EA20069B61C /* Supporting Files */,
 			);
 			path = NetClip;
@@ -211,6 +229,7 @@
 				E9C6732117004EA20069B61C /* Credits.rtf in Resources */,
 				E9C6732717004EA30069B61C /* MainMenu.xib in Resources */,
 				E9EE8FD4170B0F7C00CE70CC /* Preferences.xib in Resources */,
+				E9DC88921721636F00A2A1AE /* LogView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +247,9 @@
 				E9D0187D1717F78700CA7951 /* NetClipServer.m in Sources */,
 				E9D018801717FDD700CA7951 /* NetClipClient.m in Sources */,
 				E9C5D36A171EE76000E4C504 /* NetClipFileTransferClient.m in Sources */,
+				E956D179172158CB00DACC7B /* LogEntry.m in Sources */,
+				E9DC889517216B0C00A2A1AE /* LogViewController.m in Sources */,
+				E9DC8898172172E200A2A1AE /* Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,9 @@ typedef enum {stateBeginning, stateSendingCommand, stateSendingFile} SendState;
 
 @implementation NetClipFileTransferClient
 
+#pragma mark -
+#pragma mark Initialisation
+
 -(id)initWithServer:(NSString*) server andPort:(NSUInteger) port {
     self = [super init];
     if (self) {
