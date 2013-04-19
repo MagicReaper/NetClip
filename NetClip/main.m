@@ -2,7 +2,7 @@
 //  main.m
 //  NetClip
 //
-//  Created by Thomas Patschinski on 19.04.13.
+//  Created by Thomas Patschinski on 25.03.13.
 //  Copyright (c) 2013 Lammel & Partner GbR. All rights reserved.
 //
 

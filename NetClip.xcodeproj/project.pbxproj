@@ -7,164 +7,165 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9C76BBB1721456000D80EA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C76BBA1721456000D80EA3 /* Cocoa.framework */; };
-		E9C76BC51721456000D80EA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9C76BC31721456000D80EA3 /* InfoPlist.strings */; };
-		E9C76BC71721456000D80EA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C76BC61721456000D80EA3 /* main.m */; };
-		E9C76BCB1721456000D80EA3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9C76BC91721456000D80EA3 /* Credits.rtf */; };
-		E9C76BDD17214A8500D80EA3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C76BDB17214A8500D80EA3 /* MainMenu.xib */; };
-		E9C76BE417214ABE00D80EA3 /* NetClipClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C76BDF17214ABE00D80EA3 /* NetClipClient.m */; };
-		E9C76BE517214ABE00D80EA3 /* NetClipFileTransferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C76BE117214ABE00D80EA3 /* NetClipFileTransferClient.m */; };
-		E9C76BE617214ABE00D80EA3 /* NetClipServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C76BE317214ABE00D80EA3 /* NetClipServer.m */; };
-		E9C76BED17214ACD00D80EA3 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C76BE817214ACD00D80EA3 /* Preferences.m */; };
-		E9C76BEE17214ACD00D80EA3 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C76BE917214ACD00D80EA3 /* Preferences.xib */; };
-		E9C76BEF17214ACD00D80EA3 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C76BEB17214ACD00D80EA3 /* PreferencesController.m */; };
+		E998B3C117156AB7004EF3DF /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E998B3C017156AB7004EF3DF /* Preferences.m */; };
+		E9A8173117158AFB00F43D84 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A8173017158AFB00F43D84 /* PreferencesController.m */; };
+		E9C5D36A171EE76000E4C504 /* NetClipFileTransferClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C5D369171EE76000E4C504 /* NetClipFileTransferClient.m */; };
+		E9C6731117004EA20069B61C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C6731017004EA20069B61C /* Cocoa.framework */; };
+		E9C6731B17004EA20069B61C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9C6731917004EA20069B61C /* InfoPlist.strings */; };
+		E9C6731D17004EA20069B61C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C6731C17004EA20069B61C /* main.m */; };
+		E9C6732117004EA20069B61C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E9C6731F17004EA20069B61C /* Credits.rtf */; };
+		E9C6732417004EA30069B61C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C6732317004EA30069B61C /* AppDelegate.m */; };
+		E9C6732717004EA30069B61C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C6732517004EA30069B61C /* MainMenu.xib */; };
+		E9D0187D1717F78700CA7951 /* NetClipServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0187C1717F78700CA7951 /* NetClipServer.m */; };
+		E9D018801717FDD700CA7951 /* NetClipClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0187F1717FDD700CA7951 /* NetClipClient.m */; };
+		E9EE8FD4170B0F7C00CE70CC /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EE8FD3170B0F7C00CE70CC /* Preferences.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E9C76BB71721456000D80EA3 /* NetClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9C76BBA1721456000D80EA3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		E9C76BBD1721456000D80EA3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		E9C76BBE1721456000D80EA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E9C76BBF1721456000D80EA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E9C76BC21721456000D80EA3 /* NetClip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetClip-Info.plist"; sourceTree = "<group>"; };
-		E9C76BC41721456000D80EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E9C76BC61721456000D80EA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E9C76BC81721456000D80EA3 /* NetClip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetClip-Prefix.pch"; sourceTree = "<group>"; };
-		E9C76BCA1721456000D80EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E9C76BD71721472600D80EA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E9C76BD81721472600D80EA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E9C76BDC17214A8500D80EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		E9C76BDE17214ABE00D80EA3 /* NetClipClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipClient.h; sourceTree = "<group>"; };
-		E9C76BDF17214ABE00D80EA3 /* NetClipClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipClient.m; sourceTree = "<group>"; };
-		E9C76BE017214ABE00D80EA3 /* NetClipFileTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipFileTransferClient.h; sourceTree = "<group>"; };
-		E9C76BE117214ABE00D80EA3 /* NetClipFileTransferClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipFileTransferClient.m; sourceTree = "<group>"; };
-		E9C76BE217214ABE00D80EA3 /* NetClipServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipServer.h; sourceTree = "<group>"; };
-		E9C76BE317214ABE00D80EA3 /* NetClipServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipServer.m; sourceTree = "<group>"; };
-		E9C76BE717214ACD00D80EA3 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
-		E9C76BE817214ACD00D80EA3 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
-		E9C76BE917214ACD00D80EA3 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
-		E9C76BEA17214ACD00D80EA3 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
-		E9C76BEB17214ACD00D80EA3 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
-		E9C76BEC17214ACD00D80EA3 /* Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
+		E998B3BF17156AB7004EF3DF /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		E998B3C017156AB7004EF3DF /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		E9A8172F17158AFB00F43D84 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		E9A8173017158AFB00F43D84 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		E9C5D368171EE76000E4C504 /* NetClipFileTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipFileTransferClient.h; sourceTree = "<group>"; };
+		E9C5D369171EE76000E4C504 /* NetClipFileTransferClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipFileTransferClient.m; sourceTree = "<group>"; };
+		E9C6730D17004EA20069B61C /* NetClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C6731017004EA20069B61C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E9C6731317004EA20069B61C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E9C6731417004EA20069B61C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E9C6731517004EA20069B61C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9C6731817004EA20069B61C /* NetClip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetClip-Info.plist"; sourceTree = "<group>"; };
+		E9C6731A17004EA20069B61C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9C6731C17004EA20069B61C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9C6731E17004EA20069B61C /* NetClip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetClip-Prefix.pch"; sourceTree = "<group>"; };
+		E9C6732017004EA20069B61C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E9C6732217004EA20069B61C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9C6732317004EA30069B61C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9C6732617004EA30069B61C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9D0187B1717F78700CA7951 /* NetClipServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipServer.h; sourceTree = "<group>"; };
+		E9D0187C1717F78700CA7951 /* NetClipServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipServer.m; sourceTree = "<group>"; };
+		E9D0187E1717FDD700CA7951 /* NetClipClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetClipClient.h; sourceTree = "<group>"; };
+		E9D0187F1717FDD700CA7951 /* NetClipClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetClipClient.m; sourceTree = "<group>"; };
+		E9D01882171812CB00CA7951 /* Structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
+		E9EE8FD3170B0F7C00CE70CC /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9C76BB41721456000D80EA3 /* Frameworks */ = {
+		E9C6730A17004EA20069B61C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C76BBB1721456000D80EA3 /* Cocoa.framework in Frameworks */,
+				E9C6731117004EA20069B61C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E9C76BAE1721456000D80EA3 = {
+		E998B3BE17156A97004EF3DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E9C76BC01721456000D80EA3 /* NetClip */,
-				E9C76BB91721456000D80EA3 /* Frameworks */,
-				E9C76BB81721456000D80EA3 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		E9C76BB81721456000D80EA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BB71721456000D80EA3 /* NetClip.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E9C76BB91721456000D80EA3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BBA1721456000D80EA3 /* Cocoa.framework */,
-				E9C76BBC1721456000D80EA3 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E9C76BBC1721456000D80EA3 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BBD1721456000D80EA3 /* AppKit.framework */,
-				E9C76BBE1721456000D80EA3 /* CoreData.framework */,
-				E9C76BBF1721456000D80EA3 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		E9C76BC01721456000D80EA3 /* NetClip */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BF017214AD400D80EA3 /* C */,
-				E9C76BF217214AF600D80EA3 /* Network Code */,
-				E9C76BF117214AE000D80EA3 /* Model */,
-				E9C76BD71721472600D80EA3 /* AppDelegate.h */,
-				E9C76BD81721472600D80EA3 /* AppDelegate.m */,
-				E9C76BEA17214ACD00D80EA3 /* PreferencesController.h */,
-				E9C76BEB17214ACD00D80EA3 /* PreferencesController.m */,
-				E9C76BDB17214A8500D80EA3 /* MainMenu.xib */,
-				E9C76BE917214ACD00D80EA3 /* Preferences.xib */,
-				E9C76BC11721456000D80EA3 /* Supporting Files */,
-			);
-			path = NetClip;
-			sourceTree = "<group>";
-		};
-		E9C76BC11721456000D80EA3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BC21721456000D80EA3 /* NetClip-Info.plist */,
-				E9C76BC31721456000D80EA3 /* InfoPlist.strings */,
-				E9C76BC61721456000D80EA3 /* main.m */,
-				E9C76BC81721456000D80EA3 /* NetClip-Prefix.pch */,
-				E9C76BC91721456000D80EA3 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E9C76BF017214AD400D80EA3 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BEC17214ACD00D80EA3 /* Structs.h */,
-			);
-			name = C;
-			sourceTree = "<group>";
-		};
-		E9C76BF117214AE000D80EA3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E9C76BE717214ACD00D80EA3 /* Preferences.h */,
-				E9C76BE817214ACD00D80EA3 /* Preferences.m */,
+				E998B3BF17156AB7004EF3DF /* Preferences.h */,
+				E998B3C017156AB7004EF3DF /* Preferences.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
-		E9C76BF217214AF600D80EA3 /* Network Code */ = {
+		E9C6730417004EA20069B61C = {
 			isa = PBXGroup;
 			children = (
-				E9C76BE217214ABE00D80EA3 /* NetClipServer.h */,
-				E9C76BE317214ABE00D80EA3 /* NetClipServer.m */,
-				E9C76BDE17214ABE00D80EA3 /* NetClipClient.h */,
-				E9C76BDF17214ABE00D80EA3 /* NetClipClient.m */,
-				E9C76BE017214ABE00D80EA3 /* NetClipFileTransferClient.h */,
-				E9C76BE117214ABE00D80EA3 /* NetClipFileTransferClient.m */,
+				E9C6731617004EA20069B61C /* NetClip */,
+				E9C6730F17004EA20069B61C /* Frameworks */,
+				E9C6730E17004EA20069B61C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C6730E17004EA20069B61C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6730D17004EA20069B61C /* NetClip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C6730F17004EA20069B61C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6731017004EA20069B61C /* Cocoa.framework */,
+				E9C6731217004EA20069B61C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C6731217004EA20069B61C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6731317004EA20069B61C /* AppKit.framework */,
+				E9C6731417004EA20069B61C /* CoreData.framework */,
+				E9C6731517004EA20069B61C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E9C6731617004EA20069B61C /* NetClip */ = {
+			isa = PBXGroup;
+			children = (
+				E9D01881171812AE00CA7951 /* C */,
+				E9D0187A1717F76900CA7951 /* Network Code */,
+				E998B3BE17156A97004EF3DF /* Model */,
+				E9C6732217004EA20069B61C /* AppDelegate.h */,
+				E9C6732317004EA30069B61C /* AppDelegate.m */,
+				E9A8172F17158AFB00F43D84 /* PreferencesController.h */,
+				E9A8173017158AFB00F43D84 /* PreferencesController.m */,
+				E9C6732517004EA30069B61C /* MainMenu.xib */,
+				E9EE8FD3170B0F7C00CE70CC /* Preferences.xib */,
+				E9C6731717004EA20069B61C /* Supporting Files */,
+			);
+			path = NetClip;
+			sourceTree = "<group>";
+		};
+		E9C6731717004EA20069B61C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6731817004EA20069B61C /* NetClip-Info.plist */,
+				E9C6731917004EA20069B61C /* InfoPlist.strings */,
+				E9C6731C17004EA20069B61C /* main.m */,
+				E9C6731E17004EA20069B61C /* NetClip-Prefix.pch */,
+				E9C6731F17004EA20069B61C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D0187A1717F76900CA7951 /* Network Code */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0187B1717F78700CA7951 /* NetClipServer.h */,
+				E9D0187C1717F78700CA7951 /* NetClipServer.m */,
+				E9D0187E1717FDD700CA7951 /* NetClipClient.h */,
+				E9D0187F1717FDD700CA7951 /* NetClipClient.m */,
+				E9C5D368171EE76000E4C504 /* NetClipFileTransferClient.h */,
+				E9C5D369171EE76000E4C504 /* NetClipFileTransferClient.m */,
 			);
 			name = "Network Code";
+			sourceTree = "<group>";
+		};
+		E9D01881171812AE00CA7951 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E9D01882171812CB00CA7951 /* Structs.h */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9C76BB61721456000D80EA3 /* NetClip */ = {
+		E9C6730C17004EA20069B61C /* NetClip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9C76BD41721456100D80EA3 /* Build configuration list for PBXNativeTarget "NetClip" */;
+			buildConfigurationList = E9C6732A17004EA30069B61C /* Build configuration list for PBXNativeTarget "NetClip" */;
 			buildPhases = (
-				E9C76BB31721456000D80EA3 /* Sources */,
-				E9C76BB41721456000D80EA3 /* Frameworks */,
-				E9C76BB51721456000D80EA3 /* Resources */,
+				E9C6730917004EA20069B61C /* Sources */,
+				E9C6730A17004EA20069B61C /* Frameworks */,
+				E9C6730B17004EA20069B61C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,86 +173,87 @@
 			);
 			name = NetClip;
 			productName = NetClip;
-			productReference = E9C76BB71721456000D80EA3 /* NetClip.app */;
+			productReference = E9C6730D17004EA20069B61C /* NetClip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E9C76BAF1721456000D80EA3 /* Project object */ = {
+		E9C6730517004EA20069B61C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Lammel & Partner GbR";
 			};
-			buildConfigurationList = E9C76BB21721456000D80EA3 /* Build configuration list for PBXProject "NetClip" */;
+			buildConfigurationList = E9C6730817004EA20069B61C /* Build configuration list for PBXProject "NetClip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E9C76BAE1721456000D80EA3;
-			productRefGroup = E9C76BB81721456000D80EA3 /* Products */;
+			mainGroup = E9C6730417004EA20069B61C;
+			productRefGroup = E9C6730E17004EA20069B61C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9C76BB61721456000D80EA3 /* NetClip */,
+				E9C6730C17004EA20069B61C /* NetClip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E9C76BB51721456000D80EA3 /* Resources */ = {
+		E9C6730B17004EA20069B61C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C76BC51721456000D80EA3 /* InfoPlist.strings in Resources */,
-				E9C76BCB1721456000D80EA3 /* Credits.rtf in Resources */,
-				E9C76BDD17214A8500D80EA3 /* MainMenu.xib in Resources */,
-				E9C76BEE17214ACD00D80EA3 /* Preferences.xib in Resources */,
+				E9C6731B17004EA20069B61C /* InfoPlist.strings in Resources */,
+				E9C6732117004EA20069B61C /* Credits.rtf in Resources */,
+				E9C6732717004EA30069B61C /* MainMenu.xib in Resources */,
+				E9EE8FD4170B0F7C00CE70CC /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E9C76BB31721456000D80EA3 /* Sources */ = {
+		E9C6730917004EA20069B61C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C76BC71721456000D80EA3 /* main.m in Sources */,
-				E9C76BE417214ABE00D80EA3 /* NetClipClient.m in Sources */,
-				E9C76BE517214ABE00D80EA3 /* NetClipFileTransferClient.m in Sources */,
-				E9C76BE617214ABE00D80EA3 /* NetClipServer.m in Sources */,
-				E9C76BED17214ACD00D80EA3 /* Preferences.m in Sources */,
-				E9C76BEF17214ACD00D80EA3 /* PreferencesController.m in Sources */,
+				E9C6731D17004EA20069B61C /* main.m in Sources */,
+				E9C6732417004EA30069B61C /* AppDelegate.m in Sources */,
+				E998B3C117156AB7004EF3DF /* Preferences.m in Sources */,
+				E9A8173117158AFB00F43D84 /* PreferencesController.m in Sources */,
+				E9D0187D1717F78700CA7951 /* NetClipServer.m in Sources */,
+				E9D018801717FDD700CA7951 /* NetClipClient.m in Sources */,
+				E9C5D36A171EE76000E4C504 /* NetClipFileTransferClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E9C76BC31721456000D80EA3 /* InfoPlist.strings */ = {
+		E9C6731917004EA20069B61C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E9C76BC41721456000D80EA3 /* en */,
+				E9C6731A17004EA20069B61C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E9C76BC91721456000D80EA3 /* Credits.rtf */ = {
+		E9C6731F17004EA20069B61C /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E9C76BCA1721456000D80EA3 /* en */,
+				E9C6732017004EA20069B61C /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		E9C76BDB17214A8500D80EA3 /* MainMenu.xib */ = {
+		E9C6732517004EA30069B61C /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E9C76BDC17214A8500D80EA3 /* en */,
+				E9C6732617004EA30069B61C /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -259,7 +261,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E9C76BD21721456100D80EA3 /* Debug */ = {
+		E9C6732817004EA30069B61C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		E9C76BD31721456100D80EA3 /* Release */ = {
+		E9C6732917004EA30069B61C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +320,7 @@
 			};
 			name = Release;
 		};
-		E9C76BD51721456100D80EA3 /* Debug */ = {
+		E9C6732B17004EA30069B61C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -330,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		E9C76BD61721456100D80EA3 /* Release */ = {
+		E9C6732C17004EA30069B61C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -345,24 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9C76BB21721456000D80EA3 /* Build configuration list for PBXProject "NetClip" */ = {
+		E9C6730817004EA20069B61C /* Build configuration list for PBXProject "NetClip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9C76BD21721456100D80EA3 /* Debug */,
-				E9C76BD31721456100D80EA3 /* Release */,
+				E9C6732817004EA30069B61C /* Debug */,
+				E9C6732917004EA30069B61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9C76BD41721456100D80EA3 /* Build configuration list for PBXNativeTarget "NetClip" */ = {
+		E9C6732A17004EA30069B61C /* Build configuration list for PBXNativeTarget "NetClip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9C76BD51721456100D80EA3 /* Debug */,
-				E9C76BD61721456100D80EA3 /* Release */,
+				E9C6732B17004EA30069B61C /* Debug */,
+				E9C6732C17004EA30069B61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E9C76BAF1721456000D80EA3 /* Project object */;
+	rootObject = E9C6730517004EA20069B61C /* Project object */;
 }
